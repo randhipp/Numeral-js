@@ -1,6 +1,6 @@
 // numeral.js locale configuration
 // locale : indonesian Indonesia (id)
-// author : Randhi Pratama Putra : http://jombangdigital.net
+// author : Randhi Pratama Putra : http://jombang.digital
 
 (function (global, factory) {
     if (typeof define === 'function' && define.amd) {
@@ -21,9 +21,6 @@
             million: 'juta',
             billion: 'milyar',
             trillion: 'triliun'
-        },
-        ordinal: function (number) {
-            return 'º';
         },
         currency: {
             symbol: 'Rp'
